@@ -1,0 +1,328 @@
+/*LANDING PAGE WHERE YOU DECIDE IF YOU'RE A BOOMER OR WHAT!!!!!!!!*/
+.initLanding {
+    background-color: black;
+} /*Initial landing page BG*/
+
+.landingHeader {
+    display: flex;
+    height: 25vh;
+    padding: 25vh;
+} /*Landing header block*/
+
+.landingQuestion {
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 30pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} /*Landing header question*/
+
+.landingSelector {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} /*Landing selection*/
+
+.landingChoices {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 15vw;
+    padding: 20px;
+    text-decoration: none;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} /*Landing choices*/
+
+.landingChoices a {
+    text-decoration: none;
+    color: red;
+}
+
+.landingChoices:hover {
+    background-color: gray;
+}
+
+
+/*END LANDING PAGE WHERE YOU DECIDE IF YOU'RE A BOOMER OR WHAT!!!!!!!!*/
+
+/*BEGIN LAYOUT TO CALL YOU A BOOMER!!!!!!!!!!!!!*/
+
+.okay {
+    background-color: black;
+}
+
+.boomer {
+    display: flex;
+    font-size: 130pt;
+    color: red;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+} /*text*/
+
+/*END LAYOUT TO CALL YOU A BOOMER!!!!!!!!!!!!!*/
+
+/*BEGIN LAYOUT FOR OVERALL INFO PAGES!!!!!!!!!!!*/
+
+.homeButton {
+    display: flex;
+    position: fixed;
+    margin: 16px;
+    padding: 8px;
+    background-color: black;
+} /*Home block*/
+
+.homeArrow {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 4vmin;
+}
+
+.homeArrow:hover {
+    display: flex;
+    color: red;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background: black;
+    padding: 25px;
+} /*header menu*/
+
+.headMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90vw;
+
+}
+
+.headerLink a,
+.headerLink a:visited,
+.headerLink a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 3vmin;
+
+}
+
+.headerLink a:hover {
+    background-color: white;
+    color: black;
+}
+
+.landingMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} /*Landing menu*/
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 16px;
+}
+
+.menu li {
+    display: block;
+    /*width:120px;*/
+    font-size: 24pt;
+    margin: 5px;
+    text-decoration: white;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.link {
+    display: block;
+    /*justify-content: center;*/
+
+    text-decoration: white;
+}
+
+.link a,
+.link a:link,
+.link a:visited {
+    text-decoration: white;
+    color: white;
+    background-color: black;
+}
+
+.link a:hover {
+    color: black;
+    background-color: rgb(216, 216, 216);
+}
+
+body,
+html {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    font-size: 13pt;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*END LAYOUT FOR OVERALL INFO PAGES!!!!!!!!!!!*/
+
+/*BEGIN LAYOUT FOR HOME PAGE!!!!!!!!!!*/
+
+.landing {
+    background-image: url("https://media.newyorker.com/photos/5d3f11f92e2c910008a1c125/master/pass/Petrusich-Yelling.jpg");
+    filter: grayscale(100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    /*padding: 32px;*/
+}
+
+.landingMenu {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: center;
+}
+
+
+.title {
+    display: flex;
+    font-size: 36pt;
+    text-align: center;
+    justify-content: center;
+    font-style: italic;
+    background-color: black;
+    margin-left: 270px;
+    margin-right: 270px;
+}
+
+.subTitle {
+    display: flex;
+    font-size: 27pt;
+    text-align: center;
+    justify-content: center;
+    font-style: bold;
+    background-color: black;
+    margin-left: 320px;
+    margin-right: 320px;
+}
+
+.divider {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    color: black;
+    border: black;
+}
+
+.mainContainer {
+    padding-top: 50px;
+}
+
+.thumbnailContainer {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.moreInfoLink {
+    text-decoration: none;
+}
+
+.moreInfoLink:hover {
+    text-decoration: red;
+}
+
+
+
+/*END LAYOUT FOR HOME PAGE!!!!!!!!!!*/
+
+/*BEGIN LAYOUT FOR MORE INFO PAGE!!!!!!!!!*/
+
+.infoTitle {
+    font-size: 11vmin;
+    text-align: center;
+    font-style: italic;
+}
+
+.columnContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: 48px;
+    margin-right: 48px;
+
+}
+
+.infolink {
+    color: black;
+    text-decoration: none;
+}
+
+.infolink:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.textColumn {
+    font-size: 16pt;
+}
+
+.thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.firstLetter {
+    font-size: 24pt;
+}
+
+.footer {}
+
+.footerLinks {
+    text-align: center;
+    font-size: 14pt;
+}
+
+.footLink {
+    color: black;
+    text-decoration: none;
+}
+
+.footLink:hover {
+    color: white;
+    background-color: black;
+}
+
+/*END LAYOUT FOR MORE INFO PAGE!!!!!!!!!*/
+
+/*BEGIN LAYOUT FOR TIMELINE PAGE!!!!!!!!!!*/
+
+.timeline {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.time {
+    font-size: 20pt;
+    margin: 36px;
+
+}
+
+/*END LAYOUT FOR TIMELINE PAGE!!!!!!!!!!*/
